@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    background-image: url(../img/bg.svg);
+    background-position: 50% 100%;
+    /* height: 80vh; */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius:100px ;
+    border-bottom-right-radius:100px ;
+    /* margin-bottom: 40%; */
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    color: white;
+    font-size: 1.5em;
+}
+nav img{
+    width: 180px;
+    filter: invert(100%);
+}
+nav button{
+    font-size: 15px;
+    padding: 15px 45px;
+    border-radius: 50px;
+    color: black;
+    border: none;
+    background-color: #ebc7b5;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5%;
+}
+.content{
+    padding-left: 3%;
+}
+.content h1{
+margin-top: 4%;
+color: white;
+font-size: 4em;
+font-weight: 400;
+letter-spacing: 2px;
+}
+.content p{
+    color: white;
+    font-size: 1.3em;
+    margin-top: 8%;
+    margin-bottom: 15%;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+    padding: 30px 45px;
+    border-radius:50px ;
+    background-color:#ebc7b5 ;
+   
+}
+.services{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.detail{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 8% 8%;
+    align-items: center;
+    text-align: center;
+    margin: 4%;
+    border-radius: 80px;
+}
+.last{
+    padding: 3%;
+}
+.detail .item{
+width: 250px;
+}
+.detail .item p{
+    margin-top: 15%;
+}
+.syllabus{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    text-align: center;
+    height: 90vh;
+}
+.syllabus .img{
+    position: fixed;
+    top: 400px;
+    left: 10px;
+    z-index: -1;
+}
